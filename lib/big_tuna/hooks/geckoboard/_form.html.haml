@@ -1,0 +1,9 @@
+%div
+  = label_tag "Geckoboard API Token"
+  %br
+  = text_field_tag "configuration[token]", @hook.configuration["token"]
+
+%div
+  = label_tag "Geckoboard Push URL"
+  %br
+  = text_field_tag "configuration[url]", @hook.configuration["url"]
